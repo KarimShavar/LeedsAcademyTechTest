@@ -1,0 +1,5 @@
+@ECHO "Cleaning up..."
+@RD /S /Q "./src/TechTest/node_modules"
+@RD /S /Q "./src/TechTest/bin"
+@RD /S /Q "./src/TechTest/obj"
+@ECHO "Cleanup complete!"
